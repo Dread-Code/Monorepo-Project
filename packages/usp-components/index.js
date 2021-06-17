@@ -1,0 +1,1 @@
+export const suma = () => console.log("suma")
