@@ -1,0 +1,12 @@
+{
+  "name": "users-portal",
+  "keywords": ["monorepo"],
+  "version": "1.0.0",
+  "description": "User's portal core project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "author": "Lucas Ospina A.",
+  "license": "ISC"
+}
