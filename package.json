@@ -10,5 +10,8 @@
     "test": "jest --watchAll"
   },
   "author": "Lucas Ospina A.",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "2.3.1"
+  }
 }

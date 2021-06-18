@@ -1,6 +1,6 @@
-import React from "react";
-import { Button } from "@usp/components";
-import { hot } from "react-hot-loader/root";
+import React from 'react'
+import { Button } from '@usp/components'
+import { hot } from 'react-hot-loader/root'
 
 const App = () => {
   return (
@@ -8,7 +8,7 @@ const App = () => {
       <h1>App...</h1>
       <Button primary="true" label="Button" />
     </div>
-  );
-};
+  )
+}
 
-export default hot(App);
+export default hot(App)
