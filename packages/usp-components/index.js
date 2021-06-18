@@ -1,1 +1,3 @@
-export const suma = () => console.log("suma")
+import Button from "./stories/Button";
+
+export { Button };
