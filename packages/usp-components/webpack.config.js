@@ -8,7 +8,7 @@ module.exports = {
   mode: "production",
   devtool: "source-map",
   output: {
-    filename: "componentes.bundle.js",
+    filename: "componentes.bundle.min.js",
     path: path.resolve(__dirname, "build"),
     library: "usp-componentes",
     libraryTarget: "umd",

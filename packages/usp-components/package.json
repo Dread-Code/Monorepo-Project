@@ -2,7 +2,7 @@
   "name": "@usp/components",
   "version": "1.0.0",
   "description": "",
-  "module": "build/components.bundle.js",
+  "module": "build/componentes.bundle.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-watch": "webpack --config webpack.config.js --watch",

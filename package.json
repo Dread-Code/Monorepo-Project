@@ -1,6 +1,8 @@
 {
-  "name": "users-portal",
-  "keywords": ["monorepo"],
+  "name": "@usp",
+  "keywords": [
+    "monorepo"
+  ],
   "version": "1.0.0",
   "description": "User's portal core project",
   "main": "index.js",
