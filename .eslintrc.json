@@ -30,7 +30,9 @@
         "react/no-unescaped-entities": 0,
         "import/no-extraneous-dependencies": "off",
         "no-multi-spaces": "off",
-        "object-curly-newline": ["off", {"multiline": false}]
-
+        "object-curly-newline": ["off", {"multiline": false}],
+        "import/no-unresolved": "off",
+        "react/jsx-boolean-value": ["off", "never"]
+        
     }
 }
