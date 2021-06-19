@@ -4,7 +4,7 @@
   "description": "",
   "module": "build/componentes.bundle.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --watchAll",
     "build-watch": "webpack --config webpack.config.js --watch",
     "build": "webpack --config webpack.config.js",
     "storybook": "start-storybook -p 6006",
@@ -40,5 +40,10 @@
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
+  },
+  "jest": {
+    "setupFiles": [
+      "../../setupTests"
+    ]
   }
 }
