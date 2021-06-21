@@ -1,7 +1,6 @@
-const basic = require('../jest.config')
+const basic = require('../jest.config.base')
 
 module.exports = {
-  ...basic.projects[0],
-  setupFilesAfterEnv: ['../setupTests.js'],
-  testMatch: ['<rootDir>/src/**/*.test.{js,jsx}']
+  ...basic,
+  setupFilesAfterEnv: ['../setupTests.js']
 }

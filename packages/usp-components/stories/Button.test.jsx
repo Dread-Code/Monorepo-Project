@@ -4,7 +4,7 @@ import styles from 'button.scss'
 import Button from './Button'
 
 describe('Button', () => {
-  it('should  ', () => {
+  it('should find a button', () => {
     const wrapper = shallow(<Button label="Demo" primary={true} />)
     expect(wrapper.find('button').length).toBe(1)
   })

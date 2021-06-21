@@ -1,17 +1,16 @@
+const basic = require('./jest.config.base')
+
 module.exports = {
   projects: [
     {
       displayName: 'core',
-      testMatch: ['<rootDir>/core/src/**/*.test.{js,jsx}']
+      roots: ['<rootDir>/core/src/'],
+      ...basic
     },
     {
       displayName: '@usp/components',
-      testMatch: ['<rootDir>/packages/usp-components/stories/**/*.test.{js,jsx}'],
-      moduleNameMapper: {
-        '^.+\\.(css|less|scss)$': 'identity-obj-proxy'
-      },
-      setupFilesAfterEnv: ['<rootDir>/setupTests.js']
+      roots: ['<rootDir>/packages/usp-components/stories/'],
+      ...basic
     }
-  ],
-  collectCoverage: true
+  ]
 }
