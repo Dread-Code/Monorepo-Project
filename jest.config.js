@@ -12,5 +12,6 @@ module.exports = {
       roots: ['<rootDir>/packages/usp-components/stories/'],
       ...basic
     }
-  ]
+  ],
+  ...basic
 }
