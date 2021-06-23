@@ -36,7 +36,9 @@
   },
   "dependencies": {
     "@usp/components": "file:../packages/usp-components",
+    "axios": "^0.21.1",
     "gsap": "^3.7.0",
+    "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-dropzone": "^11.3.2",
