@@ -3,3 +3,6 @@ run:
 
 build: 
 	sudo docker build -t dreadfulcrazy/users-portal-core .
+
+rs:
+	cd core/ && npm run start

@@ -1,0 +1,17 @@
+version: '3.4'
+services:
+  front:
+    image: dreadfulcrazy/users-portal-core
+    container_name: users-portal-front
+    working_dir: /mnt/monorepo-project
+    volumes:
+      - /home/dreadfulcrazy/Escritorio/Monorepo-Project:/mnt/monorepo-project
+    ports:
+      - '3000:3000'
+      - '6006:6006'
+
+  back:
+    image: dreadfulcrazy/spring-kcrm-banco:1.0.0
+    container_name: users-portal-back
+    ports:
+      - '8080:8080'
