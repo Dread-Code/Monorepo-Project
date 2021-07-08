@@ -40,5 +40,6 @@ module.exports = {
   optimization: {
     minimize: true,
     minimizer: [new TerserPlugin()]
-  }
+  },
+  watchOptions: { poll: true }
 }
