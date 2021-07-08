@@ -5,7 +5,7 @@ services:
     container_name: users-portal-front
     working_dir: /mnt/monorepo-project
     volumes:
-      - /home/dreadfulcrazy/Escritorio/Monorepo-Project:/mnt/monorepo-project
+      - .:/mnt/monorepo-project
     ports:
       - '3000:3000'
       - '6006:6006'
